@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E048A0D1CF35B7800429C44 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E048A0C1CF35B7800429C44 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8E1FD8B11CF40DC0000D6F58 /* NHSuperApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FD8B01CF40DC0000D6F58 /* NHSuperApi.m */; };
+		8E1FD8B41CF40DE8000D6F58 /* NHConnectApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FD8B31CF40DE8000D6F58 /* NHConnectApi.m */; };
+		8EAFB9B21CF34F7300AB22DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B11CF34F7300AB22DF /* main.m */; };
+		8EAFB9B51CF34F7300AB22DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */; };
+		8EAFB9B81CF34F7300AB22DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B71CF34F7300AB22DF /* ViewController.m */; };
+		8EAFB9BB1CF34F7300AB22DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B91CF34F7300AB22DF /* Main.storyboard */; };
+		8EAFB9BD1CF34F7300AB22DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB9BC1CF34F7300AB22DF /* Assets.xcassets */; };
+		8EAFB9C01CF34F7300AB22DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB9BE1CF34F7300AB22DF /* LaunchScreen.storyboard */; };
+		8EAFB9CA1CF34FD900AB22DF /* NHsocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9C91CF34FD900AB22DF /* NHsocketManager.m */; };
+		8EAFB9CD1CF350AB00AB22DF /* NHInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9CC1CF350AB00AB22DF /* NHInputStream.m */; };
+		8EAFB9D01CF3517B00AB22DF /* NHOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9CF1CF3517B00AB22DF /* NHOutputStream.m */; };
+		8EAFB9D31CF3520B00AB22DF /* NHSocketProtocolHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9D21CF3520B00AB22DF /* NHSocketProtocolHeader.m */; };
+		8EAFB9DA1CF3536D00AB22DF /* NHOutputStream+write.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9D91CF3536D00AB22DF /* NHOutputStream+write.m */; };
+		8EFEAC551CF36BED00382B8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EFEAC541CF36BED00382B8D /* CoreGraphics.framework */; };
+		8EFF597B1CF4CAB100665A19 /* ShowPromptMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF597A1CF4CAB100665A19 /* ShowPromptMessage.m */; };
+		8EFF597E1CF4CAF700665A19 /* GlobalToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF597D1CF4CAF700665A19 /* GlobalToolClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E048A0B1CF35B7800429C44 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		8E048A0C1CF35B7800429C44 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		8E1FD8AF1CF40DC0000D6F58 /* NHSuperApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSuperApi.h; sourceTree = "<group>"; };
+		8E1FD8B01CF40DC0000D6F58 /* NHSuperApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHSuperApi.m; sourceTree = "<group>"; };
+		8E1FD8B21CF40DE8000D6F58 /* NHConnectApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHConnectApi.h; sourceTree = "<group>"; };
+		8E1FD8B31CF40DE8000D6F58 /* NHConnectApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHConnectApi.m; sourceTree = "<group>"; };
+		8EAFB9AD1CF34F7300AB22DF /* socket五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socket五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EAFB9B11CF34F7300AB22DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EAFB9B31CF34F7300AB22DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EAFB9B61CF34F7300AB22DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EAFB9B71CF34F7300AB22DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EAFB9BA1CF34F7300AB22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EAFB9BC1CF34F7300AB22DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EAFB9BF1CF34F7300AB22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EAFB9C11CF34F7300AB22DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAFB9C81CF34FD900AB22DF /* NHsocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHsocketManager.h; sourceTree = "<group>"; };
+		8EAFB9C91CF34FD900AB22DF /* NHsocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHsocketManager.m; sourceTree = "<group>"; };
+		8EAFB9CB1CF350AB00AB22DF /* NHInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHInputStream.h; sourceTree = "<group>"; };
+		8EAFB9CC1CF350AB00AB22DF /* NHInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHInputStream.m; sourceTree = "<group>"; };
+		8EAFB9CE1CF3517B00AB22DF /* NHOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHOutputStream.h; sourceTree = "<group>"; };
+		8EAFB9CF1CF3517B00AB22DF /* NHOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHOutputStream.m; sourceTree = "<group>"; };
+		8EAFB9D11CF3520B00AB22DF /* NHSocketProtocolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHSocketProtocolHeader.h; path = ../NHSocketProtocolHeader.h; sourceTree = "<group>"; };
+		8EAFB9D21CF3520B00AB22DF /* NHSocketProtocolHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHSocketProtocolHeader.m; path = ../NHSocketProtocolHeader.m; sourceTree = "<group>"; };
+		8EAFB9D81CF3536D00AB22DF /* NHOutputStream+write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NHOutputStream+write.h"; sourceTree = "<group>"; };
+		8EAFB9D91CF3536D00AB22DF /* NHOutputStream+write.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NHOutputStream+write.m"; sourceTree = "<group>"; };
+		8EFEAC541CF36BED00382B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EFF59791CF4CAB100665A19 /* ShowPromptMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPromptMessage.h; sourceTree = "<group>"; };
+		8EFF597A1CF4CAB100665A19 /* ShowPromptMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPromptMessage.m; sourceTree = "<group>"; };
+		8EFF597C1CF4CAF700665A19 /* GlobalToolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalToolClass.h; sourceTree = "<group>"; };
+		8EFF597D1CF4CAF700665A19 /* GlobalToolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalToolClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EAFB9AA1CF34F7300AB22DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFEAC551CF36BED00382B8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EAFB9A41CF34F7300AB22DF = {
+			isa = PBXGroup;
+			children = (
+				8EFEAC541CF36BED00382B8D /* CoreGraphics.framework */,
+				8EAFB9AF1CF34F7300AB22DF /* socket五子棋 */,
+				8EAFB9AE1CF34F7300AB22DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EAFB9AE1CF34F7300AB22DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EAFB9AD1CF34F7300AB22DF /* socket五子棋.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EAFB9AF1CF34F7300AB22DF /* socket五子棋 */ = {
+			isa = PBXGroup;
+			children = (
+				8EAFB9C71CF34FC000AB22DF /* scoketManager */,
+				8EAFB9D41CF3525B00AB22DF /* ToolManager */,
+				8EAFB9B31CF34F7300AB22DF /* AppDelegate.h */,
+				8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */,
+				8EAFB9B61CF34F7300AB22DF /* ViewController.h */,
+				8EAFB9B71CF34F7300AB22DF /* ViewController.m */,
+				8EAFB9B91CF34F7300AB22DF /* Main.storyboard */,
+				8EAFB9BC1CF34F7300AB22DF /* Assets.xcassets */,
+				8EAFB9BE1CF34F7300AB22DF /* LaunchScreen.storyboard */,
+				8EAFB9C11CF34F7300AB22DF /* Info.plist */,
+				8EAFB9B01CF34F7300AB22DF /* Supporting Files */,
+			);
+			path = "socket五子棋";
+			sourceTree = "<group>";
+		};
+		8EAFB9B01CF34F7300AB22DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EAFB9B11CF34F7300AB22DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EAFB9C71CF34FC000AB22DF /* scoketManager */ = {
+			isa = PBXGroup;
+			children = (
+				8E048A0B1CF35B7800429C44 /* AsyncSocket.h */,
+				8E048A0C1CF35B7800429C44 /* AsyncSocket.m */,
+				8EAFB9C81CF34FD900AB22DF /* NHsocketManager.h */,
+				8EAFB9C91CF34FD900AB22DF /* NHsocketManager.m */,
+				8EAFB9CB1CF350AB00AB22DF /* NHInputStream.h */,
+				8EAFB9CC1CF350AB00AB22DF /* NHInputStream.m */,
+				8EAFB9CE1CF3517B00AB22DF /* NHOutputStream.h */,
+				8EAFB9CF1CF3517B00AB22DF /* NHOutputStream.m */,
+			);
+			path = scoketManager;
+			sourceTree = "<group>";
+		};
+		8EAFB9D41CF3525B00AB22DF /* ToolManager */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF597C1CF4CAF700665A19 /* GlobalToolClass.h */,
+				8EFF597D1CF4CAF700665A19 /* GlobalToolClass.m */,
+				8EFF59791CF4CAB100665A19 /* ShowPromptMessage.h */,
+				8EFF597A1CF4CAB100665A19 /* ShowPromptMessage.m */,
+				8EAFB9D11CF3520B00AB22DF /* NHSocketProtocolHeader.h */,
+				8EAFB9D21CF3520B00AB22DF /* NHSocketProtocolHeader.m */,
+				8EAFB9D81CF3536D00AB22DF /* NHOutputStream+write.h */,
+				8EAFB9D91CF3536D00AB22DF /* NHOutputStream+write.m */,
+				8E1FD8AF1CF40DC0000D6F58 /* NHSuperApi.h */,
+				8E1FD8B01CF40DC0000D6F58 /* NHSuperApi.m */,
+				8E1FD8B21CF40DE8000D6F58 /* NHConnectApi.h */,
+				8E1FD8B31CF40DE8000D6F58 /* NHConnectApi.m */,
+			);
+			path = ToolManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EAFB9AC1CF34F7300AB22DF /* socket五子棋 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EAFB9C41CF34F7300AB22DF /* Build configuration list for PBXNativeTarget "socket五子棋" */;
+			buildPhases = (
+				8EAFB9A91CF34F7300AB22DF /* Sources */,
+				8EAFB9AA1CF34F7300AB22DF /* Frameworks */,
+				8EAFB9AB1CF34F7300AB22DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "socket五子棋";
+			productName = "socket五子棋";
+			productReference = 8EAFB9AD1CF34F7300AB22DF /* socket五子棋.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EAFB9A51CF34F7300AB22DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Niu;
+				TargetAttributes = {
+					8EAFB9AC1CF34F7300AB22DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8EAFB9A81CF34F7300AB22DF /* Build configuration list for PBXProject "socket五子棋" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EAFB9A41CF34F7300AB22DF;
+			productRefGroup = 8EAFB9AE1CF34F7300AB22DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EAFB9AC1CF34F7300AB22DF /* socket五子棋 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EAFB9AB1CF34F7300AB22DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAFB9C01CF34F7300AB22DF /* LaunchScreen.storyboard in Resources */,
+				8EAFB9BD1CF34F7300AB22DF /* Assets.xcassets in Resources */,
+				8EAFB9BB1CF34F7300AB22DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EAFB9A91CF34F7300AB22DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EAFB9B81CF34F7300AB22DF /* ViewController.m in Sources */,
+				8EAFB9B51CF34F7300AB22DF /* AppDelegate.m in Sources */,
+				8EAFB9DA1CF3536D00AB22DF /* NHOutputStream+write.m in Sources */,
+				8E048A0D1CF35B7800429C44 /* AsyncSocket.m in Sources */,
+				8E1FD8B41CF40DE8000D6F58 /* NHConnectApi.m in Sources */,
+				8EFF597E1CF4CAF700665A19 /* GlobalToolClass.m in Sources */,
+				8EAFB9CA1CF34FD900AB22DF /* NHsocketManager.m in Sources */,
+				8EFF597B1CF4CAB100665A19 /* ShowPromptMessage.m in Sources */,
+				8EAFB9CD1CF350AB00AB22DF /* NHInputStream.m in Sources */,
+				8EAFB9D31CF3520B00AB22DF /* NHSocketProtocolHeader.m in Sources */,
+				8EAFB9D01CF3517B00AB22DF /* NHOutputStream.m in Sources */,
+				8E1FD8B11CF40DC0000D6F58 /* NHSuperApi.m in Sources */,
+				8EAFB9B21CF34F7300AB22DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EAFB9B91CF34F7300AB22DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAFB9BA1CF34F7300AB22DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EAFB9BE1CF34F7300AB22DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EAFB9BF1CF34F7300AB22DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EAFB9C21CF34F7300AB22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EAFB9C31CF34F7300AB22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EAFB9C51CF34F7300AB22DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "socket五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hui.socket---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EAFB9C61CF34F7300AB22DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "socket五子棋/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hui.socket---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EAFB9A81CF34F7300AB22DF /* Build configuration list for PBXProject "socket五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAFB9C21CF34F7300AB22DF /* Debug */,
+				8EAFB9C31CF34F7300AB22DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EAFB9C41CF34F7300AB22DF /* Build configuration list for PBXNativeTarget "socket五子棋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EAFB9C51CF34F7300AB22DF /* Debug */,
+				8EAFB9C61CF34F7300AB22DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EAFB9A51CF34F7300AB22DF /* Project object */;
+}
