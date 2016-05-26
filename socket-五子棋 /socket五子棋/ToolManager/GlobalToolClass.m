@@ -9,6 +9,9 @@
 #import "GlobalToolClass.h"
 #define isIOS7 [[UIDevice currentDevice].systemVersion doubleValue]>=7.0?YES:NO
 
+NSString *const KSStartGameNotification = @"startGameNotification";
+NSString *const KSEndGameNotification = @"endGameNotification";
+
 @implementation GlobalToolClass
 //-(void)postParam:(NSString *)Parameters WithUrl:(NSURL *)url Sucessful:(void (^)(NSDictionary *))Sucessful failure:(void (^)(NSString *))failure
 

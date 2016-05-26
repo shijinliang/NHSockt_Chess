@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
+/** 开始游戏通知 */
+extern NSString *const KSStartGameNotification;
+
+/** 结束游戏通知 */
+extern NSString *const KSEndGameNotification;
+
 @interface GlobalToolClass : NSObject
 + (CGSize) getLabel:(UILabel*)label Size:(CGSize)size;
 + (CGSize) getString:(NSString *)content Size:(CGSize)size WithFont:(UIFont *)font;
