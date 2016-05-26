@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA0B40E1CF6F1000067B0CE /* ChessBoardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA0B40D1CF6F1000067B0CE /* ChessBoardController.m */; };
+		3CA0B4171CF6F64A0067B0CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CA0B4151CF6F64A0067B0CE /* Info.plist */; };
+		3CA0B4181CF6F64A0067B0CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA0B4161CF6F64A0067B0CE /* main.m */; };
 		8E048A0D1CF35B7800429C44 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E048A0C1CF35B7800429C44 /* AsyncSocket.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8E1FD8B11CF40DC0000D6F58 /* NHSuperApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FD8B01CF40DC0000D6F58 /* NHSuperApi.m */; };
 		8E1FD8B41CF40DE8000D6F58 /* NHConnectApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FD8B31CF40DE8000D6F58 /* NHConnectApi.m */; };
-		8EAFB9B21CF34F7300AB22DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B11CF34F7300AB22DF /* main.m */; };
 		8EAFB9B51CF34F7300AB22DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */; };
 		8EAFB9B81CF34F7300AB22DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B71CF34F7300AB22DF /* ViewController.m */; };
 		8EAFB9BB1CF34F7300AB22DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAFB9B91CF34F7300AB22DF /* Main.storyboard */; };
@@ -27,6 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3CA0B40C1CF6F1000067B0CE /* ChessBoardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardController.h; sourceTree = "<group>"; };
+		3CA0B40D1CF6F1000067B0CE /* ChessBoardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardController.m; sourceTree = "<group>"; };
+		3CA0B4151CF6F64A0067B0CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA0B4161CF6F64A0067B0CE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CA0B4191CF6F65C0067B0CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8E048A0B1CF35B7800429C44 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
 		8E048A0C1CF35B7800429C44 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
 		8E1FD8AF1CF40DC0000D6F58 /* NHSuperApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHSuperApi.h; sourceTree = "<group>"; };
@@ -34,7 +41,6 @@
 		8E1FD8B21CF40DE8000D6F58 /* NHConnectApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHConnectApi.h; sourceTree = "<group>"; };
 		8E1FD8B31CF40DE8000D6F58 /* NHConnectApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHConnectApi.m; sourceTree = "<group>"; };
 		8EAFB9AD1CF34F7300AB22DF /* socket五子棋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "socket五子棋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EAFB9B11CF34F7300AB22DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EAFB9B31CF34F7300AB22DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8EAFB9B61CF34F7300AB22DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -42,7 +48,6 @@
 		8EAFB9BA1CF34F7300AB22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EAFB9BC1CF34F7300AB22DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EAFB9BF1CF34F7300AB22DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EAFB9C11CF34F7300AB22DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EAFB9C81CF34FD900AB22DF /* NHsocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHsocketManager.h; sourceTree = "<group>"; };
 		8EAFB9C91CF34FD900AB22DF /* NHsocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHsocketManager.m; sourceTree = "<group>"; };
 		8EAFB9CB1CF350AB00AB22DF /* NHInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHInputStream.h; sourceTree = "<group>"; };
@@ -72,11 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA0B40B1CF6EF3B0067B0CE /* ChessBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3CA0B40C1CF6F1000067B0CE /* ChessBoardController.h */,
+				3CA0B40D1CF6F1000067B0CE /* ChessBoardController.m */,
+			);
+			path = ChessBoard;
+			sourceTree = "<group>";
+		};
+		3CA0B4141CF6F64A0067B0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA0B4151CF6F64A0067B0CE /* Info.plist */,
+				3CA0B4161CF6F64A0067B0CE /* main.m */,
+				3CA0B4191CF6F65C0067B0CE /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		8EAFB9A41CF34F7300AB22DF = {
 			isa = PBXGroup;
 			children = (
 				8EFEAC541CF36BED00382B8D /* CoreGraphics.framework */,
 				8EAFB9AF1CF34F7300AB22DF /* socket五子棋 */,
+				3CA0B4141CF6F64A0067B0CE /* Supporting Files */,
 				8EAFB9AE1CF34F7300AB22DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +119,7 @@
 			children = (
 				8EAFB9C71CF34FC000AB22DF /* scoketManager */,
 				8EAFB9D41CF3525B00AB22DF /* ToolManager */,
+				3CA0B40B1CF6EF3B0067B0CE /* ChessBoard */,
 				8EAFB9B31CF34F7300AB22DF /* AppDelegate.h */,
 				8EAFB9B41CF34F7300AB22DF /* AppDelegate.m */,
 				8EAFB9B61CF34F7300AB22DF /* ViewController.h */,
@@ -101,18 +127,8 @@
 				8EAFB9B91CF34F7300AB22DF /* Main.storyboard */,
 				8EAFB9BC1CF34F7300AB22DF /* Assets.xcassets */,
 				8EAFB9BE1CF34F7300AB22DF /* LaunchScreen.storyboard */,
-				8EAFB9C11CF34F7300AB22DF /* Info.plist */,
-				8EAFB9B01CF34F7300AB22DF /* Supporting Files */,
 			);
 			path = "socket五子棋";
-			sourceTree = "<group>";
-		};
-		8EAFB9B01CF34F7300AB22DF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8EAFB9B11CF34F7300AB22DF /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		8EAFB9C71CF34FC000AB22DF /* scoketManager */ = {
@@ -206,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA0B4171CF6F64A0067B0CE /* Info.plist in Resources */,
 				8EAFB9C01CF34F7300AB22DF /* LaunchScreen.storyboard in Resources */,
 				8EAFB9BD1CF34F7300AB22DF /* Assets.xcassets in Resources */,
 				8EAFB9BB1CF34F7300AB22DF /* Main.storyboard in Resources */,
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAFB9B81CF34F7300AB22DF /* ViewController.m in Sources */,
+				3CA0B40E1CF6F1000067B0CE /* ChessBoardController.m in Sources */,
 				8EAFB9B51CF34F7300AB22DF /* AppDelegate.m in Sources */,
 				8EAFB9DA1CF3536D00AB22DF /* NHOutputStream+write.m in Sources */,
 				8E048A0D1CF35B7800429C44 /* AsyncSocket.m in Sources */,
@@ -230,8 +248,8 @@
 				8EAFB9CD1CF350AB00AB22DF /* NHInputStream.m in Sources */,
 				8EAFB9D31CF3520B00AB22DF /* NHSocketProtocolHeader.m in Sources */,
 				8EAFB9D01CF3517B00AB22DF /* NHOutputStream.m in Sources */,
+				3CA0B4181CF6F64A0067B0CE /* main.m in Sources */,
 				8E1FD8B11CF40DC0000D6F58 /* NHSuperApi.m in Sources */,
-				8EAFB9B21CF34F7300AB22DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +361,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "socket五子棋/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hui.socket---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,7 +373,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "socket五子棋/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Hui.socket---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
