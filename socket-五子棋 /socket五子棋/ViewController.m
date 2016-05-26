@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "NHsocketManager.h"
 #import "NHConnectApi.h"
+#import "ChessBoardController.h"
 
 @interface ViewController ()
 
@@ -29,7 +30,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.label.text =  [[NHsocketManager defaultManager] getCurrentIP];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(startGame) name:KSStartGameNotification object:nil];
 }
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (IBAction)connect:(UIButton *)sender {
     
     if (self.ipTF.text.length&&self.passWord.text.length) {
@@ -39,6 +48,12 @@
 - (IBAction)fasong:(id)sender {
     
     [[NHsocketManager defaultManager] writeDataProtocolHeader:2 cId:2 message:@"牛辉就是帅"];
+}
+
+- (void)startGame
+{
+    ChessBoardController *ctrl = [[ChessBoardController alloc] init];
+    [self.navigationController pushViewController:ctrl animated:YES];
 }
 
 @end

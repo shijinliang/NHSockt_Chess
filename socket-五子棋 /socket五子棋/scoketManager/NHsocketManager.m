@@ -193,7 +193,7 @@
 - (void)fromeclient:(int)sId cId:(int)cid message:(NSString *)message
 {
     if (sId==1&&cid==1) {//链接的协议
-        if ([message isEqualToString:@"牛辉真帅"]) {//校验链接身份
+        if ([message isEqualToString:@"123"]) {//校验链接身份
             NSData *data=[@"口令验证成功" dataUsingEncoding:NSUTF8StringEncoding];
             //发送消息
             NHOutputStream *dataout = [[NHOutputStream alloc] init];
@@ -217,6 +217,8 @@
         }
     } else {
         [[ShowPromptMessage sharedManager] showPromptMessage:[NSString stringWithFormat:@"%d-%d-%@",cid,sId,message] WithPoint:CGSizeMake(SCREEN_WIDTH,SCREEN_HEIGHT)];
+        
+        [[NSNotificationCenter defaultCenter] postNotificationName:KSStartGameNotification object:nil];
     }
 }
 @end
